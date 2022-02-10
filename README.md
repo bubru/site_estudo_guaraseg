@@ -1,5 +1,5 @@
 # site_estudo_guaraseg
 
-Este é um site teste que fiz na época da faculdade. Nele usamos os conhecimentos adquiridos nas aulas de Lógica de programação, HTML, CSS e Javascript. 
+Este site foi criado durante o primeiro semestre do meu curso. A professora nos passou um trabalho em que teríamos que criar uma empresa e construir o site da mesma. Nela usamos os conhecimentos adquiridos nas aulas de Lógica de programação, HTML, CSS e Javascript. 
 
-A empresa em questão é fictícia, a criamos apenas para o projeto.
+
