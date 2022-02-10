@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title> GUARA SEG | Fale Conosco </title>
+			<link href="menu.css" rel="stylesheet" type="text/css"/>
+			<link href="estilo.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript">
+			function validar()
+			{
+				if(document.formulario.fnome.value == ""){
+				alert("Campo 'Nome' não pode ficar em branco.");
+				document.formulario.fnome.focus();
+				return false;
+			}
+				if(document.formulario.femail.value == "" || document.formulario.femail.value.indexOf('@')==-1 || document.formulario.femail.value.indexOf('.')==-1){
+				alert("Email inválido.");
+				document.formulario.femail.focus();
+				return false;
+			}
+				if(document.formulario.fcidade.value == ""){
+				alert("Campo 'Cidade' não pode ficar em branco.");
+				document.formulario.fcidade.focus();
+				return false;
+				}
+					
+				alert('Enviado!');
+				return true;
+}
+
+		</script>
+	</head>
+
+<body>
+	<a href=index.html" title="GUARA SEG - Soluções em Segurança"> <img src="IMAGENS/banner2.png" alt="banner_guara_seg"></a>
+
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="institucional.html">Institucional</a></li>
+		<li><a href="produtos.html">Produtos e Serviços</a></li>
+		<li><a href="faleconosco.html">Fale Conosco</a></li>
+	</ul>
+</div>
+</div>
+
+<div id="formulario">
+<form name="formulario" onSubmit="return validar()">	
+
+<p>Orçamento, dúvidas, elogios, reclamações ou sugestões, entre em contato conosco.</p><br>
+
+<p>Nome:
+<input type="text" name="fnome"/>
+</p><br>
+
+<p>
+Email:
+<input type="text" name="femail"/>
+</p><br>
+
+<p>
+Selecione uma estado:
+<select>
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+</select>
+</p><br>
+
+<p>
+Cidade:
+<input type="text" name="fcidade"/>
+</p><br>
+
+<p>
+Motivo:
+<select>
+<option value="Orçamento">Orçamento</option>
+<option value="Reclamação">Reclamação</option>
+<option value="Sugestão">Sugestão</option>
+<option value="Elogios">Elogios</option>
+<option value="Dúvidas">Dúvidas</option>
+</select>
+</p><br>
+
+<p>
+Envie-nos sua mensagem:
+</p><br>
+<textarea rows="10" cols="50" maxlength="1000" wrap="hard" placeholder="Escreva aqui...">
+</textarea><br><br>
+
+<input type="submit" value="Enviar"/>
+
+</form>
+</div>
+
+
+<div id="rodape">
+<ul>
+	<h1><font color="white">Páginas</h1>
+	<li><a href="index.html" style="text-decoration: none"><font color="white">Home</a></li><br>
+	<li><a href="institucional.html" style="text-decoration: none"><font color="white">Institucional</a></li><br>
+	<li><a href="produtos.html" style="text-decoration: none"><font color="white">Produtos e Serviços</a></li><br>
+	<li><a href="faleconosco.html" style="text-decoration: none"><font color="white">Fale Conosco</a></li><br>
+	<p align="center"> <font color="white"> Copyright © 2016 - Desenvolvido por Bruno</p>
+</ul>
+</div>
+
+</body>
+</html>

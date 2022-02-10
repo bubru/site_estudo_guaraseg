@@ -1,0 +1,38 @@
+div#rodape{
+width: 1350px; 
+height: auto; 
+bottom: 0; 
+left:0; 
+background-color:#34495e;
+clear:both;
+padding-bottom:20px;
+padding-top:20px}
+
+div#rodape ul li{font-family: "trebuchet ms";margin-left: 50px; list-style-type:none; text-decoration: none; font-weight: normal}
+div#rodape ul p{font-family: "trebuchet ms"; font-weight: normal;}
+div#rodape ul h1{font-family: "trebuchet ms";font-size: 23px; margin-left: 50px; list-style-type:none; text-decoration: none; font-weight: normal; margin-bottom:10px}
+
+div#conteudo{
+font-family: "trebuchet ms";
+height: auto; 
+width: 750px; 
+margin-left: 10%;
+padding-right: 30%; 
+margin-top: 60px;
+margin-bottom: 40px
+}
+
+div#conteudo h1{font-family: "trebuchet ms"; font-size:20px;}
+div#conteudo p{font-family: "trebuchet ms";}
+
+div#formulario{
+height: 550px; 
+width: 750px; 
+margin-left: 10%;
+padding-right: 30%; 
+margin-top: 60px;} 
+div#formulario p{font-family: "trebuchet ms";font-weight: normal}
+
+
+
+	
