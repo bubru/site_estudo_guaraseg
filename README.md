@@ -4,7 +4,9 @@ Este site foi criado em 2016, durante o primeiro semestre em que eu cursava Tecn
 
 Criamos uma empresa chamada "Guaraseg" e nela usamos os conhecimentos adquiridos nas aulas de Lógica de programação, HTML e CSS do primeiro semestre e uma animação de slide em Javascript . 
 
+--- 
+
 <a href="https://fastnblue.github.io/site_estudo_guaraseg/produtos.html">Site da empresa</a>
 
----
+
 
