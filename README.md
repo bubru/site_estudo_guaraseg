@@ -6,7 +6,7 @@ Criamos uma empresa chamada "Guaraseg" e nela usamos os conhecimentos adquiridos
 
 --- 
 
-<a href="https://fastnblue.github.io/site_estudo_guaraseg/produtos.html">Site da empresa</a>
+<a href="https://bubru.github.io/site_estudo_guaraseg/produtos.html">Site da empresa</a>
 
 
 
